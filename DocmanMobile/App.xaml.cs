@@ -1,4 +1,5 @@
 ﻿using System;
+using DocmanMobile.Pages;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,7 @@ namespace DocmanMobile
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new CallPage();
         }
 
         protected override void OnStart()
