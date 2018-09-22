@@ -1,16 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="DocmanMobile.Pages.CallPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:views="clr-namespace:DocmanMobile.Views"
+             x:Class="DocmanMobile.Pages.CallPage">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Вызов неотложной медицинской помощи"
                    FontSize="Large"
                    HorizontalOptions="CenterAndExpand"/>
-         <Entry Placeholder="Фамилия" 
-                Keyboard="Text" />
-            <Entry Placeholder="Имя"
+            
+            <views:PatientView />
+            
+            <Entry Placeholder="Серия паспорта"
                    Keyboard="Text"/>
-            <Entry Placeholder="Отчество"
+            <Entry Placeholder="Номер паспорта"
                    Keyboard="Text"/>
+            <Entry Placeholder="Район"
+                   Keyboard="Text"/>
+            <Entry Placeholder="Населенный пункт"
+                   Keyboard="Text"/>
+            <Entry Placeholder="Улица"
+                   Keyboard="Text"/>
+            <Entry Placeholder="Расстояние"
+                   Keyboard="Text"/>
+            <Entry Placeholder="Дом"
+                   Keyboard="Numeric"/>
+            <Entry Placeholder="Корпус"
+                   Keyboard="Text"/>
+            <Entry Placeholder="Подьезд"
+                   Keyboard="Numeric"/>
+            <Entry Placeholder="Этаж"
+                   Keyboard="Numeric"/>
+            <Entry Placeholder="Код входной двери"
+                   Keyboard="Text"/>
+            <Entry Placeholder="Квартира"
+                    Keyboard="Text"/>
+            
+            
                 
         </StackLayout>
         

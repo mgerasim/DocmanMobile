@@ -19,5 +19,9 @@
     <Folder Include="Pages\" />
     <Folder Include="ViewModels\" />
     <Folder Include="ViewModels\Base\" />
+    <Folder Include="Views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Pages\PatientView.xaml.cs" />
   </ItemGroup>
 </Project>
